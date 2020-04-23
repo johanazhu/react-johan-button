@@ -9,6 +9,8 @@ import "../../lib/react-johan-btn.min.css";
 
 import Button from 'react-johan-button';
 
+console.log('Button', Button)
+
 function App() {
     return (
         <div>

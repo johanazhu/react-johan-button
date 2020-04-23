@@ -10,3 +10,5 @@ rev
 yarn.lock
 yarn-error.log
 coverage
+lib
+es
