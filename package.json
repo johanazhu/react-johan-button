@@ -1,91 +1,91 @@
 {
-  "name": "react-johan-button",
-  "version": "0.0.1",
-  "description": "react-johan-button",
-  "main": "dist/index.js",
-  "scripts": {
-    "dev": "webpack-dev-server --config example/webpack.dev.js",
-    "build:package": "webpack --config example/webpack.prod.js",
-    "build:lib": "cross-env babel src --out-dir lib",
-    "build": "rm -rf lib && mkdir lib && npm run build:package && npm run build:lib",
-    "eslint": "eslint --fix .",
-    "test": "jest",
-    "cover": "jest --coverage"
-  },
-  "keywords": [
-    "react",
-    "button",
-    "component"
-  ],
-  "author": "johan",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/johanazhu/react-johan-button.git"
-  },
-  "bugs": {
-    "url": "https://github.com/johanazhu/react-johan-button/issues"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/plugin-proposal-export-default-from": "^7.8.3",
-    "@babel/plugin-transform-runtime": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
-    "@babel/preset-react": "^7.9.4",
-    "autoprefixer": "^9.7.6",
-    "babel-eslint": "^10.1.0",
-    "babel-jest": "^25.4.0",
-    "babel-loader": "^8.1.0",
-    "babel-plugin-add-module-exports": "^1.0.2",
-    "clean-webpack-plugin": "^3.0.0",
-    "css-loader": "^3.5.2",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
-    "enzyme-to-json": "^3.4.4",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.1.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^3.0.0",
-    "file-loader": "^6.0.0",
-    "html-loader": "^1.1.0",
-    "html-webpack-plugin": "^4.2.0",
-    "husky": "^4.2.5",
-    "jest": "^25.4.0",
-    "lint-staged": "^10.1.7",
-    "mini-css-extract-plugin": "^0.9.0",
-    "node-sass": "^4.13.1",
-    "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "postcss-loader": "^3.0.0",
-    "prettier": "^2.0.5",
-    "sass-loader": "^8.0.2",
-    "style-loader": "^1.1.4",
-    "uglifyjs-webpack-plugin": "^2.2.0",
-    "url-loader": "^4.1.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
-  },
-  "dependencies": {
-    "classnames": "^2.2.6",
-    "cross-env": "^7.0.2",
-    "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  },
-  "lint-staged": {
-    "src/**/*.js": [
-      "prettier --write --trailing-comma es5 --single-quote",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run eslint && lint-staged"
+    "name": "react-johan-button",
+    "version": "0.0.1",
+    "description": "react-johan-button",
+    "main": "dist/index.js",
+    "scripts": {
+        "dev": "webpack-dev-server --config example/webpack.dev.js",
+        "build:package": "webpack --config example/webpack.prod.js",
+        "build:lib": "cross-env babel src --out-dir lib",
+        "build": "rm -rf lib && mkdir lib && npm run build:package && npm run build:lib",
+        "eslint": "eslint --fix .",
+        "test": "jest",
+        "cover": "jest --coverage"
+    },
+    "keywords": [
+        "react",
+        "button",
+        "component"
+    ],
+    "author": "johan",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/johanazhu/react-johan-button.git"
+    },
+    "bugs": {
+        "url": "https://github.com/johanazhu/react-johan-button/issues"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.9.0",
+        "@babel/plugin-proposal-class-properties": "^7.8.3",
+        "@babel/plugin-proposal-export-default-from": "^7.8.3",
+        "@babel/plugin-transform-runtime": "^7.9.0",
+        "@babel/preset-env": "^7.9.5",
+        "@babel/preset-react": "^7.9.4",
+        "autoprefixer": "^9.7.6",
+        "babel-eslint": "^10.1.0",
+        "babel-jest": "^25.4.0",
+        "babel-loader": "^8.1.0",
+        "babel-plugin-add-module-exports": "^1.0.2",
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "^3.5.2",
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.2",
+        "enzyme-to-json": "^3.4.4",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb": "^18.1.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.19.0",
+        "eslint-plugin-react-hooks": "^3.0.0",
+        "file-loader": "^6.0.0",
+        "html-loader": "^1.1.0",
+        "html-webpack-plugin": "^4.2.0",
+        "husky": "^4.2.5",
+        "jest": "^25.4.0",
+        "lint-staged": "^10.1.7",
+        "mini-css-extract-plugin": "^0.9.0",
+        "node-sass": "^4.13.1",
+        "optimize-css-assets-webpack-plugin": "^5.0.3",
+        "postcss-loader": "^3.0.0",
+        "prettier": "^2.0.5",
+        "sass-loader": "^8.0.2",
+        "style-loader": "^1.1.4",
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "url-loader": "^4.1.0",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.10.3"
+    },
+    "dependencies": {
+        "classnames": "^2.2.6",
+        "cross-env": "^7.0.2",
+        "prop-types": "^15.7.2",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    },
+    "lint-staged": {
+        "src/*": [
+            "prettier --write --trailing-comma es5 --single-quote",
+            "git add"
+        ]
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run eslint && lint-staged"
+        }
     }
-  }
 }
