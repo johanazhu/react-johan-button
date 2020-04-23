@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button disabled 1`] = `
+<button
+  class="johan-btn johan-btn-default johan-btn-md"
+  disabled=""
+  type="button"
+>
+  foo
+</button>
+`;
+
+exports[`Button render 1`] = `
+<button
+  class="johan-btn johan-btn-default johan-btn-md"
+  type="button"
+>
+  foo
+</button>
+`;
+
+exports[`Button size 1`] = `
+<button
+  class="johan-btn johan-btn-default johan-btn-lg"
+  type="button"
+>
+  foo
+</button>
+`;
+
+exports[`Button type 1`] = `
+<button
+  class="johan-btn johan-btn-primary johan-btn-md"
+  type="button"
+>
+  foo
+</button>
+`;

@@ -1,0 +1,65 @@
+.johan-btn {
+    display: inline-block;
+    font-size: 14px;
+    background-color: #fff;
+    color: #595959;
+    border: 1px solid #d9d9d9;
+    padding: 5px 12px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.2s;
+    &:active {
+        border-color: #5496ff;
+        color: #5496ff;
+    }
+    &:disabled {
+        cursor: not-allowed;
+        background: #f7f7f7;
+        border-color: #d9d9d9;
+        color: rgba(0, 0, 0, 0.25);
+    }
+}
+
+.johan-btn-primary {
+    background-color: #5496ff;
+    color: #fff;
+    border: 1px solid #5496ff;
+    &:active {
+        border-color: #76abff;
+        color: #fff;
+        background-color: #76abff;
+    }
+}
+
+.johan-btn-default {
+    background-color: #5496ff;
+    color: #fff;
+    border: 1px solid #5496ff;
+    &:active {
+        border-color: #76abff;
+        color: #fff;
+        background-color: #76abff;
+    }
+}
+
+.johan-btn-danger {
+    background-color: #ff8f4b;
+    color: #fff;
+    border: 1px solid #ff8f4b;
+    &:active {
+        border-color: #ffaf7e;
+        color: #fff;
+        background-color: #ffaf7e;
+    }
+}
+
+.johan-btn-sm {
+    padding: 2px 12px;
+    font-size: 12px;
+}
+
+.johan-btn-lg {
+    padding: 8px 12px;
+    font-size: 16px;
+}
