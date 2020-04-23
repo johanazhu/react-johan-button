@@ -1,9 +1,9 @@
 {
     "name": "react-johan-button",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "description": "react-johan-button",
     "main": "lib/index.js",
-    "module": "es/index.js",
+    "module": "lib/react-johan-button.min.js",
     "scripts": {
         "dev": "webpack-dev-server --config example/webpack.dev.js",
         "build:package": "webpack --config example/webpack.prod.js",
@@ -15,7 +15,8 @@
     "files": [
         "dist",
         "example",
-        "src"
+        "src",
+        "lib"
     ],
     "keywords": [
         "react",
@@ -81,7 +82,7 @@
         "prop-types": "^15.7.2",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
-        "react-johan-button": "^0.0.1"
+        "react-johan-button": "^0.0.3"
     },
     "lint-staged": {
         "src/*": [
