@@ -4,7 +4,7 @@ module.exports = {
         './test_setup.js'
     ],
     modulePaths: [
-		"<rootDir>/src/"
+        "<rootDir>/src/"
     ], 
     moduleFileExtensions: [
         'js',
