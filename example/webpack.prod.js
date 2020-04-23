@@ -9,11 +9,11 @@ module.exports = {
     devtool: "cheap-module-source-map",
     entry: [
         path.resolve(__dirname, "../src/index.js"),
-        path.resolve(__dirname, "../src/JohanBtn.scss")
+        path.resolve(__dirname, "../scss/index.scss")
     ],
     output: {
         path: path.resolve(__dirname, "../lib/"),
-        filename: "react-johan-btn.min.js",
+        filename: 'react-johan-button.min.js',
         library: "ReactJohanButton",
         libraryTarget: "umd",
         umdNamedDefine: true,

@@ -2,9 +2,9 @@ import React from "react";
 import { render } from "react-dom";
 
 import { Button } from "../../src";
-import "../../src/index.scss";
+import "../../scss/index.scss";
 
-// import { Button } from '../../lib/react-johan-btn.min.js';
+// import { Button } from '../../lib';
 // import "../../lib/react-johan-btn.min.css";
 
 function App() {
