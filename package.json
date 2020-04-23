@@ -76,5 +76,16 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier --write --trailing-comma es5 --single-quote",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run eslint && lint-staged"
+    }
   }
 }
